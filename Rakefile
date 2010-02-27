@@ -37,7 +37,7 @@ title: Posts tagged #{category}
         post_data = post.to_liquid
         html << <<-HTML
           <li>
-            <a href="#{post.url}">#{post_data['title']}</a>
+            <a href="../#{post.url}">#{post_data['title']}</a>
           </li>
         HTML
       end
