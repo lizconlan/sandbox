@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Blogging with Jekyll and Github
+categories: 
+- jekyll
+- github
+- blogging
 ---
 
 Jekyll is a flat file website (blog) generator and it's pretty good. It's especially useful if you have a "github.com(Github code hosting)":http://github.com account (although it's rumoured to play nice with "heroku.com(Heroku ruby hosting)":http://heroku.com as well).
@@ -11,7 +15,7 @@ It feels a bit odd if you're used to the idea of a database-powered CMS, but it'
 
 So how to go about installing it? Simply run the following commands:
 
-{% highlight bash %}
+{% highlight sh %}
 sudo gem install RedCloth
 sudo gem install liquid
 sudo gem install classifier
@@ -23,8 +27,8 @@ sudo gem install mojombo-jekyll -s http://gems.github.com
 
 You can also optionally install pygments for code syntax highlighting (warning - the instructions given here are for a Mac running Snow Leopard, you can "find out how to install pygments for other OS choices here(jekyll + pygments install guide)":http://wiki.github.com/mojombo/jekyll/install)
 
-{% highlight bash %}
+{% highlight sh %}
 sudo easy_install Pygments
 {% endhighlight %}
 
-All good? Still here? Yay! For a quick tour of the basics "I recommend this tutorial(Jekyll: Sites Made Simple on sitepoint.com)":http://articles.sitepoint.com/article/jekyll-sites-made-simple
+All good? Still here? Yay! The next step is to look through "the official documentation(Jekyll documentation on Github)":http://wiki.github.com/mojombo/jekyll/usage which explains the basic folder structure and how to run a local server or for a quick tour of the basics "I recommend this tutorial(Jekyll: Sites Made Simple on sitepoint.com)":http://articles.sitepoint.com/article/jekyll-sites-made-simple

@@ -1,0 +1,10 @@
+---
+layout: post
+title: Test!
+categories: 
+- jekyll
+- blogging
+- annoyance
+---
+
+Arghh! Why can't I get categories/tagging working - what's wrong with me?
