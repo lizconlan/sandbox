@@ -37,7 +37,6 @@ title: Posts tagged #{category}
         post_data = post.to_liquid
         html << <<-HTML
           <li>
-            <div>#{date_to_string post.date}</div>
             <a href="#{post.url}">#{post_data['title']}</a>
           </li>
         HTML
