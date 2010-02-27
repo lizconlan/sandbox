@@ -40,6 +40,7 @@ a.home_link {
 
 a.home_link:hover {
 	background-color: black;
+	text-decoration: none;
 }
 
 ul.tags {
