@@ -1,8 +1,14 @@
 ---
-layout: default
+layout: tag
 title: Tags
 ---
 
+Hey, how did you get here? I didn't link to it!
+
+Anyway. Hello. Here's a list of all the tags used on the site - if any of them look interesting, click on the link to see a list of tagged posts.
+
+<ul class="tag_list">
 {% for category in site.categories %}
   <li><a href="{{ category[0] }}.html">{{ category[0] }}</a></li>
 {% endfor %}
+</ul>

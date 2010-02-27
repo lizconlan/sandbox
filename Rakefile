@@ -23,15 +23,13 @@ namespace :tags do
       
       html =<<-HTML
 ---
-layout: default
+layout: tag
 title: Posts tagged #{category}
 ---
 
-  <h2>Posts tagged #{category}</h2>
-
       HTML
 
-      html << "<ul>"
+      html << '<ul class="post_list">'
     
       posts.each do |post|
         post_data = post.to_liquid

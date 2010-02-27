@@ -51,6 +51,23 @@ ul.tags li {
 	display: inline;
 }
 
+ul.tag_list {
+	list-style: none;
+	text-align: center;
+}
+
+ul.tag_list li {
+	padding: 0.2em 0;
+}
+
+ul.post_list {
+	list-style: none;
+}
+
+ul.post_list li {
+	padding: 0.2em 0;
+}
+
 #main_panel {
 	width: 550px;
 	margin: 0 auto;
