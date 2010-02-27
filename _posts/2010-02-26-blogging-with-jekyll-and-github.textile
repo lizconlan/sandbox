@@ -26,3 +26,5 @@ You can also optionally install pygments for code syntax highlighting (warning -
 {% highlight bash %}
 sudo easy_install Pygments
 {% endhighlight %}
+
+All good? Still here? Yay! For a quick tour of the basics "I recommend this tutorial(Jekyll: Sites Made Simple on sitepoint.com)":http://articles.sitepoint.com/article/jekyll-sites-made-simple
