@@ -29,6 +29,15 @@ a.home_link:hover {
 	background-color: black;
 }
 
+ul.tags {
+	list-style: none;
+	display: inline;
+}
+
+ul.tags li {
+	display: inline;
+}
+
 #main_panel {
 	width: 550px;
 	margin: 0 auto;

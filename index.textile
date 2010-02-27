@@ -9,9 +9,7 @@ Apologies for the lack of interesting content - this microsite is just for me to
 
 Some of the ideas and posts featured here may end up on a Real Blog one day, but maybe not
 
-{% for category in site.categories %}
-  <li><a href="tags/{{ category[0] }}.html">{{ category[0] }}</a></li>
-{% endfor %}
+Recent posts:
 
 {% for post in site.posts limit:5 %}
   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br />
