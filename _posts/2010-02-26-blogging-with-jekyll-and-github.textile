@@ -3,9 +3,9 @@ layout: post
 title: Blogging with Jekyll and Github
 ---
 
-Jekyll is a flat file website (blog) generator and it's pretty good. It's especially useful if you have a "github.com(Github)":http://github.com account (although it's rumoured to play nice with "heroku.com(Heroku)":http://heroku.com as well).
+Jekyll is a flat file website (blog) generator and it's pretty good. It's especially useful if you have a "github.com(Github code hosting)":http://github.com account (although it's rumoured to play nice with "heroku.com(Heroku ruby hosting)":http://heroku.com as well).
 
-It feels a bit odd if you're used to the idea of a database-powered CMS, but it's quick and simple and if you use "git(Git)":http://git-scm.com you get version control and edit history thrown in for free (including "blame(Git blame manual)":http://book.git-scm.com/5_finding_issues_-_git_blame.html which is useful if you have multiple contributors). Backups become as simple as pulling the repository onto a machine (or two) or if - like me - you're really paranoid about losing things, you can dump your git repository into your "dropbox(Dropbox)":https://www.dropbox.com/referrals/NTExMzE3MDg5 folder.
+It feels a bit odd if you're used to the idea of a database-powered CMS, but it's quick and simple and if you use "git(Git source control)":http://git-scm.com you get version control and edit history thrown in for free (including "blame(Git blame manual)":http://book.git-scm.com/5_finding_issues_-_git_blame.html which is useful if you have multiple contributors). Backups become as simple as pulling the repository onto a machine (or two) or if - like me - you're really paranoid about losing things, you can dump your git repository into your "dropbox(Dropbox online storage)":https://www.dropbox.com/referrals/NTExMzE3MDg5 folder.
 
 (Excuse the dropbox referral link, but it's for your own good - you _do want_ 250MB of extra free space don't you?)
 
