@@ -43,13 +43,29 @@ a.home_link:hover {
 	text-decoration: none;
 }
 
+div#tags {
+	border-top: 2px solid silver;
+	border-bottom: 2px solid silver;
+	padding: 1.2em 0;
+	margin-top: 2em;
+	text-align: center;
+}
+
+.tag_head {
+	font-size: 1.2em;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
 ul.tags {
 	list-style: none;
 	display: inline;
+	padding-left: 1em;
 }
 
 ul.tags li {
 	display: inline;
+	padding-right: 1em;
 }
 
 ul.tag_list {
