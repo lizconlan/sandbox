@@ -12,5 +12,5 @@ The new Atom ION's pretty good - the early ones were a reasonable compromise of 
 Still low power consumption and cool enough to run fanless but this time it's dual core 64-bit. Very impressive. And the onboard NVIDIA ION graphics on the stock motherboards are perfectly capable of powering a 42" "monitor" at 1080p. Mine's an "Acer Revo 3610":http://support.acer.com/acerpanam/desktop/2009/acer/aspire/AspireR3610/AspireR3610sp2.shtml. Getting it all to work under Windows 7 is a bit of a fiddle - the config I have a the moment is:
 
 * "Flash Player 10.1 beta 3":http://labs.adobe.com/technologies/flashplayer10/ under "Firefox":http://www.mozilla.com/firefox/ for "BBC iPlayer":http://www.bbc.co.uk/iplayer streaming (Standard and High Def)
-* "Flash Player 10":http://get.adobe.com/flashplayer/ (latest) under IE for 4oD
+* "Flash Player 10":http://get.adobe.com/flashplayer/ (latest) under IE for "Channel 4's 4oD":http://www.channel4.com/4oD
 * "Media Player Classic Home Cinema":http://mpc-hc.sourceforge.net/Vista64.html (64-bit) for avi and mkv video
