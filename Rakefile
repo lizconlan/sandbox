@@ -41,7 +41,7 @@ title: Posts tagged #{category}
       end
       html << '</ul>'
 
-      File.open("tags/#{category}.html", 'w+') do |file|
+      File.open("tags/#{category.gsub(" ", "-")}.html", 'w+') do |file|
         file.puts html
       end
     end

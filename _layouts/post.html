@@ -15,7 +15,7 @@
           <span class="tag_head">tags:</span>
           <ul class="tags">
           {% for category in page.categories %}
-            <li><a href="tags/{{ category }}.html" title="posts tagged {{ category }}">{{ category }}</a></li>
+            <li><a href="tags/{{ category | replace:" ", "-") }}.html" title="posts tagged {{ category }}">{{ category }}</a></li>
           {% endfor %}
           </ul>
         </div>
