@@ -1,17 +1,23 @@
 body {
-	font-family: lucida grande, Helvetica, Verdana, Arial, sans-serif;
-	font-size: 14pt;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, sans-serif;
+	background-color: rgb(244, 238, 217);
 }
 
 h1 {
 	font-family: georgia, lucida grande, Helvetica, Verdana, Arial, sans-serif;
 	font-size: 1.5em;
 	text-align: center;
+	padding-bottom: 1em;
+	margin-bottom: 1.4em;
+	border-bottom: 1px solid grey;
 }
 
 h1.homepage {
-	padding-top: 1.4em;
-	display: block;
+	padding-top: 1.3em;
+}
+
+pre {
+  width: 525px;
 }
 
 pre, code { 
@@ -22,7 +28,7 @@ pre, code {
 	margin: 1em 0px;
 	padding: 0.5em;
 	overflow: auto;
-	font-size: 0.9em;
+	font-size: 1.05em;
 }
 
 pre code {border: none; padding: 0; margin: 0; font-size: 1em; line-height: 1em;}
@@ -32,35 +38,43 @@ text-align: center;
 }
 
 a.home_link {
-	font-size: 0.9em;
+	font-size: 1.05em;
 	font-variant: small-caps;
 	font-weight: bold;
-	color: silver;
+	color: grey;
 }
 
 a.home_link:hover {
-	background-color: black;
+  color: crimson;
 	text-decoration: none;
 }
 
 div#tags {
-	border-top: 2px solid silver;
-	border-bottom: 2px solid silver;
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
 	padding: 1.2em 0;
 	margin: 2em 0;
 	text-align: center;
 }
 
 .tag_head {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight: bold;
 	font-variant: small-caps;
+}
+
+ul {
+  width: 475px;
+}
+
+li {
+  padding: 0.25em 0;
 }
 
 ul.tags {
 	list-style: none;
 	display: inline;
-	padding-left: 1em;
+	margin-left: 1em;
 }
 
 ul.tags li {
@@ -89,5 +103,5 @@ ul.post_list li {
 	width: 550px;
 	margin: 0 auto;
 	text-align: left;
-	font-size: 0.8em;
+	line-height: 1.4em;
 }
