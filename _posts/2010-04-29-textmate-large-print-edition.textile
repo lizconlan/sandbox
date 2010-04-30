@@ -53,3 +53,7 @@ Click directly underneath "Text Cell". Just the lefthand part of the panel shoul
 Change the width (make wider)
 
 Save. Restart TextMate (repeat last 2 steps to taste)
+
+h3. Want to shortcut the process?
+
+Well, you don't get to customise it as much but, you can always just <a href="http://github.com/lizconlan/textmate-settings/tree/master/English.lproj/" title="my new settings on github">copy mine</a> if you like. Back up your old settings first!
