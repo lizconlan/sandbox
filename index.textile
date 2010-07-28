@@ -3,12 +3,14 @@ layout: default
 title: Sandbox
 ---
 
-Apologies for the lack of interesting content - this microsite is just for me to test a few ideas and generally mess around and play with different aspects of Jekyll and Liquid
+Hi. Apparently "I should blog more". Or so <a href="robertbrook.com">Robert Brook</a> says anyway
 
 Some of the ideas and posts featured here may end up on a Real Blog one day, but maybe not
 
+In the meantime if you find any of this useful, hello and welcome!
+
 Recent posts:
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:50 %}
   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br />
 {% endfor %}
