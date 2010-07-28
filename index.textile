@@ -3,7 +3,7 @@ layout: default
 title: Sandbox
 ---
 
-Hi. Apparently "I should blog more". Or so <a href="robertbrook.com">Robert Brook</a> says anyway
+Hi. Apparently "I should blog more". Or so <a href="http://robertbrook.com">Robert Brook</a> says anyway
 
 Some of the ideas and posts featured here may end up on a Real Blog one day, but maybe not
 
