@@ -106,3 +106,7 @@ ul.post_list li {
   border: 1px solid #EEEEEE;
 	min-height: 500px;
 }
+
+.gist .gist-file .gist-data. gist-highlight {
+  overflow: hidden;
+}
