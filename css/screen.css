@@ -1,6 +1,6 @@
 body {
 	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, sans-serif;
-	background-color: rgb(244, 238, 217);
+	background-color: white;
 }
 
 h1 {
@@ -10,10 +10,6 @@ h1 {
 	padding-bottom: 1em;
 	margin-bottom: 1.4em;
 	border-bottom: 1px solid grey;
-}
-
-h1.homepage {
-	padding-top: 1.3em;
 }
 
 pre {
@@ -34,7 +30,7 @@ pre, code {
 pre code {border: none; padding: 0; margin: 0; font-size: 1em; line-height: 1em;}
 
 #container {
-text-align: center;
+  text-align: center;
 }
 
 a.home_link {
@@ -104,4 +100,9 @@ ul.post_list li {
 	margin: 0 auto;
 	text-align: left;
 	line-height: 1.4em;
+	padding: 1em;
+	background-image:url('/images/paper_texture1a.gif');
+  background-repeat:repeat;
+  border: 1px solid #EEEEEE;
+	min-height: 500px;
 }
