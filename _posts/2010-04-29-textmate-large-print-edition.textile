@@ -5,6 +5,8 @@ categories:
 - mac os
 - textmate
 - tech
+description: guide to fixing TextMate's odder text size settings
+keywords: TextMate,mac os,blogging,howto,guide,text size,font size,eyestrain
 ---
 
 

@@ -5,6 +5,8 @@ categories:
 - jekyll
 - github
 - blogging
+description: quick beginner's guide to blogging with jekyll
+keywords: jekyll,github,blogging,howto,guide,backups,dropbox
 ---
 
 Jekyll is a flat file website (blog) generator and it's pretty good. It's especially useful if you have a "github.com(Github code hosting)":http://github.com account (although it's rumoured to play nice with "heroku.com(Heroku ruby hosting)":http://heroku.com as well).

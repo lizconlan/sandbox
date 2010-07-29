@@ -5,6 +5,8 @@ categories:
 - tech
 - couchdb
 - security
+description: guide to securing a CouchDB instance
+keywords: couchdb,security,securing,howto,guide,database,couch
 ---
 
 Most CouchDB instances are run locally, behind the firewall where security is less of an issue

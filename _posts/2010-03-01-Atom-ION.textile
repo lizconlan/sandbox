@@ -5,6 +5,8 @@ categories:
 - tech
 - Atom ION
 - media centre
+description: Atom ION review and setup guide
+keywords: Atom,ION,Intel,Flash Player,iPlayer,video
 ---
 
 The new Atom ION's pretty good - the early ones were a reasonable compromise of size and power over performance, but let's be honest, they were a bit slow. The "Atom ION 330":http://ark.intel.com/Product.aspx?id=35641 however is a different animal...
