@@ -5,6 +5,35 @@ require 'rake'
 require 'rake/testtask'
 require 'rake/rdoctask'
 
+namespace :sitemap do
+  desc 'Generates sitemap.xml'
+  task :generate do
+    require 'rubygems'
+    require 'jekyll'
+    include Jekyll::Filters
+
+    options = Jekyll.configuration({})
+    site = Jekyll::Site.new(options)
+    site.read_posts('')
+    
+    pages = []
+    
+    site.posts.each do |post|
+      pages << "  <url><loc>http://lizconlan.github.com/sandbox/#{post.url.gsub("./", "")}</loc></url>"
+    end
+    
+    xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n"
+    xml += "  <url><loc>http://lizconlan.github.com/sandbox/index.html</loc></url>\n"
+    xml += pages.join("\n")
+    xml += "\n</urlset>"
+    
+    File.open("sitemap.xml", "w") do |sitemap|
+      sitemap.puts xml
+      sitemap.close
+    end
+  end
+end
+
 namespace :tags do
   desc 'Generates a page for each tag used on the site in the /tags folder'
   task :generate do
