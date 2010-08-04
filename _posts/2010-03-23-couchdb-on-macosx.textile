@@ -5,7 +5,7 @@ categories:
 - mac os
 - couchdb
 - tech
-description: CouchDB manual installation guide for Mac OS
+description: Install CouchDB on Mac OS X
 keywords: couchdb,database,installation,mac os,howto,guide,couch
 ---
 
