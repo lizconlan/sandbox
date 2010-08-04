@@ -10,6 +10,8 @@ keywords: couchdb,database,installation,mac os,howto,guide,couch
 ---
 
 
+(or how to install CouchDB on Mac OS X from source if you prefer)
+
 First things first - your best (and simplest) bet is to use "CouchDB X (CouchDB X)":http://janl.github.com/couchdbx/
 
 Only come back here and do the boring thing if, like what happened to me, that doesn't work on your machine
