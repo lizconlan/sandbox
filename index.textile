@@ -3,11 +3,11 @@ layout: default
 title: Sandbox
 ---
 
-Hi. Apparently "I should blog more". Or so <a href="http://robertbrook.com">Robert Brook</a> says anyway
+Hi. Apparently "I should blog more". Or so <a href="http://robertbrook.com">Robert Brook</a> says anyway.
 
-Some of the ideas and posts featured here may end up on a Real Blog one day, but maybe not. Currently trying to decide whether to keep this here, copy the contents to somewhere else or start again entirely. Hmmm
+This has now been superceded by the <a href="http://blog.lizconlan.com">Real Blog&trade;</a> but as people have been kind enough to link to this, I've largely left it alone.
 
-In the meantime if you find any of this useful, hello and welcome!
+If you find any of this useful, hello and welcome!
 
 Recent posts:
 
