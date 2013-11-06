@@ -5,7 +5,7 @@ title: Sandbox
 
 Hi. Apparently "I should blog more". Or so <a href="http://robertbrook.com">Robert Brook</a> says anyway.
 
-This has now been superceded by the <a href="http://blog.lizconlan.com">Real Blog&trade;</a> but as people have been kind enough to link to this, I've largely left it alone.
+This has now been superceded by the <a href="http://blog.lizconlan.com">Real Blog&#8482;</a> but as people have been kind enough to link to this, I've largely left it alone.
 
 If you find any of this useful, hello and welcome!
 
