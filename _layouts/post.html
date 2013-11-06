@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ page.title }} | sandbox</title>
+    <title>blog.lizconlan.com > sandbox > {{ page.title }} | blog.lizconlan.com > sandbox</title>
     <link rel="stylesheet" href="css/screen.css">
     <meta name="description" value="{{ page.description }}" />
     <meta name="keywords" value="{{ page.keywords }}" />
   </head>
   <body>
-    <div id="container">
-      <a href="index.html" class="home_link">Home</a>
-      <div id="main_panel">
-        <h1>{{ page.title }}</h1>
-        {{ content }}
-        
-        <div id="tags">
-          <span class="tag_head">tags:</span>
-          <ul class="tags">
-          {% for category in page.categories %}
-            <li><a href="tags/{{ category | replace:" ", "-") }}.html" title="posts tagged {{ category }}">{{ category }}</a></li>
-          {% endfor %}
+    <header>
+      <div id="header">
+        <h1><a href="http://lizconlan.com">lizconlan.com</a></h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="http://blog.lizconlan.com">blog</a>
+            </li>
+            <li>
+              <a class="current" href="http://blog.lizconlan.com/sandbox/">sandbox</a>
+            </li>
+            <li>
+              <a href="http://code.lizconlan.com">code</a>
+            </li>
           </ul>
-        </div>
+        </nav>
       </div>
+    </header>
+    <div id="main">
+      <article id="post">
+        <h2>{{ page.title }}</h2>
+        <span class="post_date">{{ page.date | date: "%b %Y"}}</span>
+        {% if page.intro %}
+          <div markdown="1" class="intro">
+            {{ page.intro | markdownify }}
+          </div>
+        {% endif %}
+        {{ content }}
+      </article>
+      <footer>
+        &copy {{ page.date | date: "%Y" }} Liz Conlan 
+      </footer>
     </div>
     <script type="text/javascript">
 
