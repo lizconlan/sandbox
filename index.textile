@@ -12,5 +12,5 @@ In the meantime if you find any of this useful, hello and welcome!
 Recent posts:
 
 {% for post in site.posts limit:50 %}
-  <a href="/sandbox/{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br />
+  <a href="/sandbox{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br />
 {% endfor %}
