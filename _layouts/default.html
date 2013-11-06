@@ -25,18 +25,11 @@
       </div>
     </header>
     <div id="main">
-      <article id="post">
-        <h2>{{ page.title }}</h2>
-        <span class="post_date">{{ page.date | date: "%b %Y"}}</span>
-        {% if page.intro %}
-          <div markdown="1" class="intro">
-            {{ page.intro | markdownify }}
-          </div>
-        {% endif %}
+      <article id="index">
         {{ content }}
       </article>
       <footer>
-        &copy {{ page.date | date: "%Y" }} Liz Conlan 
+        &copy 2011 - {{ site.time | date: "%Y" }} Liz Conlan 
       </footer>
     </div>
     <script type="text/javascript">
