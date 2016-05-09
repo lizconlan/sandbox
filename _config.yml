@@ -1,3 +1,4 @@
-pygments: true
+highlighter: rouge
+markdown: kramdown
 permalink: ./:title.html
 exclude: Rakefile
