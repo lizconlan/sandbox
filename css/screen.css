@@ -5,7 +5,7 @@ body {
   line-height:1.48em;
   background:#DFDCCB;
   color:#111;
-  font-size:18.5px
+  font-size:18px
 }
 
 header {
@@ -71,7 +71,7 @@ header a.current {
 
 header a:hover {
   text-decoration:underline;
-  color:crimson
+  color:darkred;
 }
 
 #main {
@@ -173,7 +173,7 @@ span.post_date {
 }
 
 sup a {
-  color:crimson;
+  color:darkred;
   text-decoration:none;
   font-weight:bold;
   padding:0 0.3em
@@ -204,7 +204,7 @@ ol#footnotes li a {
 }
 
 ol#footnotes li a.return {
-  color:crimson
+  color:darkred
 }
 
 ol#footnotes li a.return:hover {
